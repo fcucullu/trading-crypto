@@ -1,0 +1,20 @@
+version: '3.7'
+
+services:
+  portfolios:
+    build: .
+#    shm_size: '24gb'
+    volumes:
+      - .:/app
+    ports:
+      - 8088:8266
+#    logging:
+#      driver: "json-file"
+#      options:
+#        max-size: "900m"
+
+        # logging:
+        # driver: "fluentd"
+        #options:
+        #fluentd-address: localhost:24224
+        #tag: "{{.Name}}-{{.ID}}"

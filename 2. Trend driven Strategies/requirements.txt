@@ -1,0 +1,11 @@
+bayesian-optimization==1.2.0
+influxdb==5.3.0
+numpy==1.19.0
+pandas==1.1.0
+QuantStats==0.0.25
+ray==0.8.2
+scikit-learn==0.23.1
+scipy==1.4.1
+statsmodels==0.11.1
+tqdm==4.32.2
+ta==0.5.25

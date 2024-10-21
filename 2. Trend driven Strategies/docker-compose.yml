@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  nombre-repo:
+    build: .
+    # shm_size: '24gb'
+    volumes:
+      - .:/app
+    ports:
+      - 8086:8265
